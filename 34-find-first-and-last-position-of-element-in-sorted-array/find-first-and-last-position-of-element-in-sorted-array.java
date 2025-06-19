@@ -28,7 +28,7 @@ e=mid-1;
         while(s<=e){
             int mid = (s+e)/2;
             if(nums[mid]==target){
-ans=mid;; s=mid+1;
+ans=mid; s=mid+1;
             }else if(target>nums[mid]){
                 s=mid+1;
             }else{
