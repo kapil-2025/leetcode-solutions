@@ -1,7 +1,7 @@
 class Solution {
     public int maxProduct(int[] nums) {
-        int max=-1;
-        int smax=-1;
+        int max=Integer.MIN_VALUE;
+        int smax=Integer.MIN_VALUE;
         for(int i=0; i<nums.length; i++)
         {
             if(nums[i]>max){
