@@ -9,7 +9,7 @@ class Solution {
             }else if(numbers[i]+numbers[j]==target){
                 ans[0]=i+1;
                 ans[1]=j+1;
-                i++; j--;
+                i++; j--; break;
             }else{i++;}
 
             
