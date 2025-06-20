@@ -35,5 +35,6 @@ ans=mid; s=mid+1;
                 e=mid-1;
             }
         }
-return ans;}
+return ans; 
+    }
 }
